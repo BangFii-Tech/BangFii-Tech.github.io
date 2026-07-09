@@ -1,8 +1,41 @@
 body{
-    background-color: rgb(97, 100, 100);
+    background-color: rgb(47, 49, 49);
 }
 
 .text-center{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
+}
+
+.fa-instagram, .fa-github{
+    font-size: 30px;
+    color: white;
+}
+
+.navbar{
+    border-radius: 25px;
+    background-color: rgb(84, 87, 87);
+    box-shadow: 10px 9px 1px 1px;
+    width: 1100px;
+    height: 80px;
+    color: rgb(26, 24, 24);
+}
+
+.navbar-brand{
+    width: 200px;
+}
+
+.nav-link{
+    color: aliceblue;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover{
+    color: rgb(47, 49, 49);
+    transform: translateY(-5px);
+}
+
+.my-4{
+    color: whitesmoke;
 }
