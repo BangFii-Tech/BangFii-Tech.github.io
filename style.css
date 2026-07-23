@@ -26,7 +26,7 @@ body{
 }
 
 .nav-link{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     transition: all 0.3s ease;
 }
@@ -39,3 +39,113 @@ body{
 .my-4{
     color: whitesmoke;
 }
+
+.contact{
+
+    background:rgb(47, 49, 49);
+    color:white;
+    padding:100px 0;
+
+}
+
+.contact h2{
+
+    font-size:45px;
+    font-weight:700;
+
+}
+
+.contact p{
+
+    max-width:700px;
+    margin:auto;
+    color:#b7c5d3;
+
+}
+
+.contact-box{
+
+    background:rgb(76, 77, 77);
+    padding:45px;
+    border-radius:25px;
+    border:1px solid rgba(255,255,255,.08);
+
+   
+
+    transition:.4s;
+
+}
+
+.contact-box:hover{
+
+    transform:translateY(-10px);
+
+   box-shadow: 10px 9px 1px 1px;
+   color: black;
+
+}
+
+.contact label{
+
+    margin-bottom:8px;
+    font-weight:600;
+
+}
+
+.form-control{
+
+    background:#393c41;
+    border:none;
+    color:white;
+    padding:14px;
+    border-radius:12px;
+
+}
+
+.form-control:focus{
+
+    background:#1b263b;
+    color:white;
+
+    
+
+}
+
+.form-control::placeholder{
+
+    color:#94a3b8;
+
+}
+
+.btn-contact{
+
+    background:linear-gradient(90deg,#000000,#000000);
+
+    color:rgb(105, 104, 104);
+
+    padding:14px 45px;
+
+    border-radius:25px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn-contact:hover{
+
+    transform:translateY(-5px);
+    color:rgb(255, 255, 255);
+
+}
+
+.footer{
+    background-color: #393c41;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    width: 1400px;
+    height: 30px;
+}
+
